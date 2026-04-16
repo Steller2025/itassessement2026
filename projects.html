@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects - RoboShop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="home-bg">
+
+<div class="container">
+
+<header>
+  <h1 style="text-align:center;">PROJECTS DASHBOARD</h1>
+</header>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+
+    <div class="logo">
+        <h2>🤖 RoboShop</h2>
+    </div>
+
+    <nav class="top-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="search-box">
+        <input type="text" placeholder="Search">
+    </div>
+
+</div>
+
+<h3 class="contact-title">Projects</h3>
+
+<!-- PROJECT LIST -->
+<div class="project-list">
+
+    <!-- PROJECT 1 -->
+    <div class="project-card">
+        <div class="slider-box">
+            <button onclick="prevProject(0)">❮</button>
+            <img id="p0" src="images/arm1.jpg">
+            <button onclick="nextProject(0)">❯</button>
+        </div>
+
+        <h3>Robotic Arm</h3>
+        <p class="status inprogress">IN PROGRESS</p>
+        <p>Date: 2026-01-10</p>
+    </div>
+
+    <!-- PROJECT 2 -->
+    <div class="project-card">
+        <div class="slider-box">
+            <button onclick="prevProject(1)">❮</button>
+            <img id="p1" src="images/vision1.jpg">
+            <button onclick="nextProject(1)">❯</button>
+        </div>
+
+        <h3>AI Robot Vision</h3>
+        <p class="status finished">FINISHED</p>
+        <p>Date: 2025-12-05</p>
+    </div>
+
+    <!-- PROJECT 3 -->
+    <div class="project-card">
+        <div class="slider-box">
+            <button onclick="prevProject(2)">❮</button>
+            <img id="p2" src="images/line.jpg">
+            <button onclick="nextProject(2)">❯</button>
+        </div>
+
+        <h3>Line Follower Robot</h3>
+        <p class="status inprogress">IN PROGRESS</p>
+        <p>Date: 2026-02-01</p>
+    </div>
+
+</div>
+
+<footer>
+    <p>AI Robotics Site | Kathmandu, Nepal</p>
+</footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
